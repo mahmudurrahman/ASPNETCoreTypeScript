@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "outDir": "../wwwroot/js"
+  },
+  "files": [ "./interfacetu.ts", "./file.ts", "./app.ts" ],
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+}
