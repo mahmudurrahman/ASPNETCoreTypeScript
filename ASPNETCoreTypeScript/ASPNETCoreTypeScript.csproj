@@ -4,6 +4,9 @@
     <TypeScriptToolsVersion>2.3</TypeScriptToolsVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Content Remove="wwwroot\js\Generices.ts" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="Scripts\app.ts" />
     <None Remove="Scripts\classes.ts" />
     <None Remove="Scripts\file.ts" />
@@ -21,5 +24,6 @@
     <TypeScriptCompile Include="Scripts\file.ts" />
     <TypeScriptCompile Include="Scripts\functions.ts" />
     <TypeScriptCompile Include="Scripts\interfacetu.ts" />
+    <TypeScriptCompile Include="Scripts\Generices.ts" />
   </ItemGroup>
 </Project>
