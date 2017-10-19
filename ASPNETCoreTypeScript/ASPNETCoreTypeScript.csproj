@@ -5,7 +5,9 @@
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Scripts\app.ts" />
+    <None Remove="Scripts\classes.ts" />
     <None Remove="Scripts\file.ts" />
+    <None Remove="Scripts\functions.ts" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
@@ -15,7 +17,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\app.ts" />
+    <TypeScriptCompile Include="Scripts\classes.ts" />
     <TypeScriptCompile Include="Scripts\file.ts" />
+    <TypeScriptCompile Include="Scripts\functions.ts" />
     <TypeScriptCompile Include="Scripts\interfacetu.ts" />
   </ItemGroup>
 </Project>

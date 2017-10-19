@@ -7,7 +7,7 @@
     "target": "es5",
     "outDir": "../wwwroot/js"
   },
-  "files": [ "./interfacetu.ts", "./file.ts", "./app.ts" ],
+  "files": [ "./classes.ts", "./file.ts", "./functions.ts" ],
   "exclude": [
     "node_modules",
     "wwwroot"
